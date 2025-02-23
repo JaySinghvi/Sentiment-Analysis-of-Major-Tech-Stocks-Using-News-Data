@@ -1,5 +1,1 @@
-# Sentiment Analysis of Major Tech Stocks Using News Data
-1. Conducted sentiment analysis on the stocks of Nvidia, Spotify, Meta, Microsoft, Amazon, Tesla, Citigroup Inc, and Apple using news data from the Finviz website.
-2. Leveraged the yfinance library to fetch stock data from Yahoo Finance, utilizing the Ticker function to extract detailed stock information.
-3. Employed Beautiful Soup to scrape relevant news articles from Finviz, ensuring a comprehensive dataset for analysis.
-4. Applied the SentimentIntensityAnalyzer from the nltk package to compute compound sentiment scores for each stock, revealing positive sentiment trends correlating with exponential stock growth.
+This project involved conducting sentiment analysis on the stocks of major companies by analyzing market sentiment and its influence on stock trends. Stock data was retrieved using yfinance, providing real-time financial insights. To build a comprehensive dataset, news articles were scraped from Finviz using Beautiful Soup. The SentimentIntensityAnalyzer from nltk computed sentiment scores, revealing a direct correlation between positive sentiment and stock price surges, offering valuable insights for market prediction.
